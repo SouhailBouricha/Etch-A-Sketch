@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="./icons/etch-a-sketch.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="./icons/etch-a-sketch.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch A Sketch</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="title">Etch-a-sketch</h1>
     <div class="content">
-        <div class="settings">
-            <input type="color" class="colorPicker">
-            <button class="btn Colormode">Color mode</button>
-            <button class="btn Rainbowmode">Rainbow mode</button>
-            <button class="btn Erasermode">Eraser mode</button>
-            <button class="btn Clearmode">Clear</button>
-            <p class="sizeValue">32 X 32</p>
-            <input type="range" name="value" id="value" min="1" max="64" value="32">
-        </div>
-        <div class="table">
-            <div class="game">
-
-            </div>
-        </div>
+      <div class="settings">
+        <input type="color" class="colorPicker" />
+        <button class="btn Colormode">Color mode</button>
+        <button class="btn Rainbowmode">Rainbow mode</button>
+        <button class="btn Erasermode">Eraser mode</button>
+        <button class="clear Clearmode">Clear</button>
+        <p class="sizeValue">11 X 11</p>
+        <input
+          type="range"
+          name="value"
+          id="value"
+          min="1"
+          max="64"
+          value="11"
+        />
+      </div>
+      <div class="table">
+        <div class="game"></div>
+      </div>
     </div>
+    <footer>
+    <p class="copy">Copyright © <span class="date">2015</span> SouhailBouricha </p> 
+    <a class="icon" href="https://github.com/SouhailBouricha" target="_blank"><img src="./icons/iconmonstr-github-1.svg" alt="icon_Github"></a>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"
+      integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
