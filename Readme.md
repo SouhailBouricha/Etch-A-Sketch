@@ -13,4 +13,4 @@ Thanks for checking out this repo.
 - [x] 5 - Fix The Colors
 - [x] 6 - Update The Table
 
-If you want to try a live show [click here](https://souhailbouricha.github.io/Rock-Paper-Scissors/) 😁
+If you want to try a live show [click here](https://souhailbouricha.github.io/Etch-A-Sketch/) 😁
