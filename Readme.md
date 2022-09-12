@@ -1,6 +1,6 @@
 # Etch-A-Sketch 🚀
 
-![Design preview for the Project: Etch-A-Sketch project](./icons/img1.PNG)
+![Design preview for the Project: Etch-A-Sketch app](./icons/img1.PNG)
 
 ## Welcome! 👋
 
